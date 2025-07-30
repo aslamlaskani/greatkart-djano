@@ -13,6 +13,7 @@ urlpatterns = [
     path('', views.home, name='home'),  # home page
     path('store/', include('store.urls')),  # store app URLs
     path('cart/', include('carts.urls')),  # store app URLs
+    path('accounts/', include('accounts.urls')),  # store app URLs
     
     
 
